@@ -1,1 +1,38 @@
-/* Add CSS styling here */
+nav {
+    background-color: #7C9473;
+    padding: 10px;
+    margin: 15px;
+    width: 30%;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+body{
+    background-color: #F2EDD7;
+}
+.intro body div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+img {
+    Padding: 5px;
+    border-radius: 40%;
+    height: 500px;
+}
+@media (max-width: 800px){
+    body{
+        background-color: #08D9D6;
+    }
+}
+@media (max-width: 500px){
+  body{
+      background-color: red;
+  }
+} 
+.div image{
+    display: flex;
+    flex-flow: row;
+
+}
